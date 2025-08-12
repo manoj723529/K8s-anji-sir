@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: jenkins.lomaaitskillprep.com
+  - host: jenkins.jamimanojkumar.xyz
     http:
       paths:
       - path: /
@@ -19,7 +19,7 @@ spec:
             name: jenkins-service
             port:
               number: 80
-  - host: nginx.lomaaitskillprep.com
+  - host: nginx.jamimanojkumar.xyz
     http:
       paths:
       - path: /
